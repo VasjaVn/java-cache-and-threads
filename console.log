@@ -1,0 +1,336 @@
+................................INITIALIZE_TESTING_CACHE...............................
+Config file "system.conf" was loaded.
+..................................START_TESTING_CACHE..................................
+Thread of notify update cache was started in suspend state.
+Pool of threads (10) were started in suspend state.
+Thread of update cache was started in suspend state.
+Run all threads.
+[Thrd_NotifyUpdateCache]: Start.
+[ThrdUseCache #4]: Start.
+[ThrdUseCache #8]: Start.
+[Thrd_ModifyCache]: Start.
+[ThrdUseCache #3]: Start.
+[Thrd_UpdateCache]: Start.
+[ThrdUseCache #7]: Start.
+[ThrdUseCache #1]: Start.
+[ThrdUseCache #5]: Start.
+[ThrdUseCache #9]: Start.
+[ThrdUseCache #2]: Start.
+[ThrdUseCache #6]: Start.
+[ThrdUseCache #10]: Start.
+[ThrdUseCache #9]: 275 ms. - { cache: () }
+[ThrdUseCache #9]: 386 ms. - { cache: () }
+[ThrdUseCache #7]: 881 ms. - { cache: () }
+[ThrdUseCache #7]: 97 ms. - { cache: () }
+[Thrd_ModifyCache]: 1523 ms. - ADD ELEMENT TO CACHE.
+[ThrdUseCache #10]: 1766 ms. - { element = '@' }
+[ThrdUseCache #2]: 1954 ms. - { element = '@' }
+[ThrdUseCache #2]: 11 ms. - { element = '@' }
+[ThrdUseCache #10]: 412 ms. - { element = '@' }
+[ThrdUseCache #6]: 2531 ms. - { cache: ('@') }
+[ThrdUseCache #10]: 430 ms. - { element = '@' }
+[Thrd_ModifyCache]: 1146 ms. - ADD ELEMENT TO CACHE.
+[ThrdUseCache #4]: 2759 ms. - { element = '@' }
+[Thrd_ModifyCache]: 281 ms. - REMOVE ELEMENT FROM CACHE.
+[ThrdUseCache #8]: 3013 ms. - { cache: ('@') }
+[ThrdUseCache #5]: 3128 ms. - { cache: ('@') }
+[ThrdUseCache #4]: 413 ms. - { cache: ('@') }
+[ThrdUseCache #10]: 581 ms. - { element = '@' }
+[ThrdUseCache #10]: 50 ms. - { element = '@' }
+[ThrdUseCache #9]: 2601 ms. - { element = '@' }
+[ThrdUseCache #10]: 169 ms. - { cache: ('@') }
+[ThrdUseCache #2]: 1455 ms. - { cache: ('@') }
+[ThrdUseCache #2]: 476 ms. - { cache: ('@') }
+[ThrdUseCache #1]: 4038 ms. - { element = '@' }
+[ThrdUseCache #3]: 4160 ms. - { element = '@' }
+[ThrdUseCache #10]: 835 ms. - { element = '@' }
+[ThrdUseCache #9]: 1076 ms. - { cache: ('@') }
+[Thrd_ModifyCache]: 1422 ms. - ADD ELEMENT TO CACHE.
+[ThrdUseCache #10]: 382 ms. - { element = '@' }
+[ThrdUseCache #3]: 668 ms. - { cache: ('@', '@') }
+[ThrdUseCache #7]: 3984 ms. - { cache: ('@', '@') }
+[ThrdUseCache #3]: 312 ms. - { element = '@' }
+[ThrdUseCache #7]: 183 ms. - { cache: ('@', '@') }
+[ThrdUseCache #9]: 1043 ms. - { element = '@' }
+[ThrdUseCache #6]: 3053 ms. - { element = '@' }
+[ThrdUseCache #7]: 550 ms. - { element = '@' }
+[ThrdUseCache #4]: 2708 ms. - { element = '@' }
+[ThrdUseCache #8]: 3060 ms. - { cache: ('@', '@') }
+[ThrdUseCache #1]: 2718 ms. - { cache: ('@', '@') }
+[ThrdUseCache #1]: REQUEST UPDATE CACHE.
+[Thrd_UpdateCache]: IN PROCCESSING UPDATING CACHE...
+[ThrdUseCache #10]: 2506 ms. - { cache: ('@', '@')* }
+[ThrdUseCache #2]: 3255 ms. - { element = '@'* }
+[Thrd_ModifyCache]: 2984 ms. - ADD ELEMENT TO CACHE.
+[ThrdUseCache #5]: 4666 ms. - { cache: ('@', '@', '@')* }
+[ThrdUseCache #5]: 21 ms. - { cache: ('@', '@', '@')* }
+[ThrdUseCache #3]: 2987 ms. - { element = '@'* }
+[ThrdUseCache #4]: 2962 ms. - { cache: ('@', '@', '@')* }
+[ThrdUseCache #9]: 3459 ms. - { element = '@'* }
+[Thrd_UpdateCache]: COMPLETED UPDATE CACHE.
+[ThrdUseCache #6]: 3711 ms. - { element = 'O' }
+[ThrdUseCache #1]: 2446 ms. - { element = 'Y' }
+[Thrd_ModifyCache]: 2421 ms. - REMOVE ELEMENT FROM CACHE.
+[ThrdUseCache #2]: 2741 ms. - { cache: ('l', 'Y', 'O') }
+[ThrdUseCache #5]: 2300 ms. - { cache: ('l', 'Y', 'O') }
+[ThrdUseCache #10]: 3032 ms. - { element = 'Y' }
+[ThrdUseCache #3]: 2346 ms. - { cache: ('l', 'Y', 'O') }
+[ThrdUseCache #9]: 1726 ms. - { element = 'O' }
+[Thrd_ModifyCache]: 844 ms. - ADD ELEMENT TO CACHE.
+[ThrdUseCache #7]: 4980 ms. - { element = '@' }
+[ThrdUseCache #6]: 1468 ms. - { cache: ('l', 'Y', 'O', '@') }
+[ThrdUseCache #8]: 4739 ms. - { cache: ('l', 'Y', 'O', '@') }
+[ThrdUseCache #6]: 1036 ms. - { element = '@' }
+[ThrdUseCache #3]: 1535 ms. - { element = 'l' }
+[ThrdUseCache #2]: 2241 ms. - { element = 'Y' }
+[ThrdUseCache #1]: 3032 ms. - { cache: ('l', 'Y', 'O', '@') }
+[ThrdUseCache #4]: 3615 ms. - { element = '@' }
+[ThrdUseCache #5]: 2665 ms. - { element = 'Y' }
+[Thrd_ModifyCache]: 2345 ms. - ADD ELEMENT TO CACHE.
+[ThrdUseCache #1]: 779 ms. - { element = '@' }
+[ThrdUseCache #10]: 2983 ms. - { element = 'l' }
+[ThrdUseCache #8]: 2390 ms. - { element = 'Y' }
+[ThrdUseCache #6]: 1424 ms. - { element = '@' }
+[ThrdUseCache #7]: 2605 ms. - { cache: ('l', 'Y', 'O', '@', '@') }
+[ThrdUseCache #9]: 2804 ms. - { element = '@' }
+[Thrd_ModifyCache]: 701 ms. - ADD ELEMENT TO CACHE.
+[ThrdUseCache #2]: REQUEST UPDATE CACHE.
+[Thrd_UpdateCache]: IN PROCCESSING UPDATING CACHE...
+[ThrdUseCache #2]: 339 ms. - { element = 'Y'* }
+[ThrdUseCache #5]: 1795 ms. - { cache: ('l', 'Y', 'O', '@', '@', '@')* }
+[ThrdUseCache #1]: 1456 ms. - { element = '@'* }
+[ThrdUseCache #7]: 1925 ms. - { cache: ('l', 'Y', 'O', '@', '@', '@')* }
+[Thrd_UpdateCache]: COMPLETED UPDATE CACHE.
+[ThrdUseCache #4]: 3873 ms. - { element = 'k' }
+[ThrdUseCache #3]: 4436 ms. - { cache: ('k', 'Y', 'j', 'C') }
+[ThrdUseCache #6]: 3323 ms. - { cache: ('k', 'Y', 'j', 'C') }
+[Thrd_ModifyCache]: 2900 ms. - ADD ELEMENT TO CACHE.
+[ThrdUseCache #9]: 3534 ms. - { element = '@' }
+[ThrdUseCache #4]: 719 ms. - { element = 'k' }
+[ThrdUseCache #7]: 1872 ms. - { cache: ('k', 'Y', 'j', 'C', '@') }
+[ThrdUseCache #10]: 4015 ms. - { cache: ('k', 'Y', 'j', 'C', '@') }
+[ThrdUseCache #3]: 855 ms. - { element = 'C' }
+[ThrdUseCache #8]: 4438 ms. - { element = 'Y' }
+[ThrdUseCache #6]: 1125 ms. - { element = 'j' }
+[ThrdUseCache #4]: 1233 ms. - { element = 'C' }
+[ThrdUseCache #2]: 4143 ms. - { element = 'C' }
+[Thrd_ModifyCache]: 2204 ms. - REMOVE ELEMENT FROM CACHE.
+[ThrdUseCache #5]: 4385 ms. - { element = 'C' }
+[ThrdUseCache #1]: 4629 ms. - { element = '@' }
+[ThrdUseCache #3]: 2775 ms. - { element = 'j' }
+[ThrdUseCache #3]: 310 ms. - { element = 'j' }
+[Thrd_ModifyCache]: 1646 ms. - REMOVE ELEMENT FROM CACHE.
+[ThrdUseCache #6]: REQUEST UPDATE CACHE.
+[Thrd_UpdateCache]: IN PROCCESSING UPDATING CACHE...
+[ThrdUseCache #10]: 3652 ms. - { element = '@'* }
+[ThrdUseCache #6]: 516 ms. - { cache: ('k', 'C', '@')* }
+[ThrdUseCache #10]: 245 ms. - { cache: ('k', 'C', '@')* }
+[ThrdUseCache #7]: 4246 ms. - { cache: ('k', 'C', '@')* }
+[ThrdUseCache #8]: 3709 ms. - { cache: ('k', 'C', '@')* }
+[ThrdUseCache #5]: 2673 ms. - { cache: ('k', 'C', '@')* }
+[ThrdUseCache #9]: 4905 ms. - { element = 'C'* }
+[ThrdUseCache #1]: 2768 ms. - { element = 'k'* }
+[ThrdUseCache #10]: 1070 ms. - { cache: ('k', 'C', '@')* }
+[ThrdUseCache #2]: 3959 ms. - { element = 'k'* }
+[ThrdUseCache #7]: 1088 ms. - { element = 'C'* }
+[ThrdUseCache #4]: 4184 ms. - { cache: ('k', 'C', '@')* }
+[Thrd_UpdateCache]: COMPLETED UPDATE CACHE.
+[ThrdUseCache #8]: 1254 ms. - { element = 'o' }
+[Thrd_ModifyCache]: 2592 ms. - REMOVE ELEMENT FROM CACHE.
+[Thrd_ModifyCache]: 67 ms. - REMOVE ELEMENT FROM CACHE.
+[ThrdUseCache #5]: 1530 ms. - { cache: ('r', 'K') }
+[Thrd_ModifyCache]: 176 ms. - ADD ELEMENT TO CACHE.
+[ThrdUseCache #7]: 996 ms. - { cache: ('r', 'K', '@') }
+[ThrdUseCache #10]: 1469 ms. - { cache: ('r', 'K', '@') }
+[ThrdUseCache #6]: 2884 ms. - { cache: ('r', 'K', '@') }
+[Thrd_ModifyCache]: 736 ms. - REMOVE ELEMENT FROM CACHE.
+[ThrdUseCache #10]: 420 ms. - { element = 'r' }
+[Thrd_ModifyCache]: 668 ms. - ADD ELEMENT TO CACHE.
+[ThrdUseCache #4]: 2382 ms. - { cache: ('r', 'K', '@') }
+[ThrdUseCache #3]: 4497 ms. - { cache: ('r', 'K', '@') }
+[ThrdUseCache #3]: 377 ms. - { cache: ('r', 'K', '@') }
+[ThrdUseCache #9]: 3909 ms. - { cache: ('r', 'K', '@') }
+[ThrdUseCache #6]: 1925 ms. - { element = 'r' }
+[ThrdUseCache #10]: 2025 ms. - { cache: ('r', 'K', '@') }
+[ThrdUseCache #7]: 2829 ms. - { cache: ('r', 'K', '@') }
+[ThrdUseCache #2]: 3885 ms. - { cache: ('r', 'K', '@') }
+[ThrdUseCache #5]: 3107 ms. - { element = '@' }
+[Thrd_ModifyCache]: 1754 ms. - ADD ELEMENT TO CACHE.
+[ThrdUseCache #1]: 4543 ms. - { element = '@' }
+[ThrdUseCache #8]: 4417 ms. - { element = '@' }
+[ThrdUseCache #10]: 1083 ms. - { cache: ('r', 'K', '@', '@') }
+[Thrd_ModifyCache]: 1265 ms. - REMOVE ELEMENT FROM CACHE.
+[ThrdUseCache #4]: REQUEST UPDATE CACHE.
+[Thrd_UpdateCache]: IN PROCCESSING UPDATING CACHE...
+[ThrdUseCache #3]: 3632 ms. - { element = '@'* }
+[ThrdUseCache #1]: 2541 ms. - { element = 'K'* }
+[ThrdUseCache #2]: 2912 ms. - { cache: ('r', 'K', '@')* }
+[ThrdUseCache #1]: 231 ms. - { cache: ('r', 'K', '@')* }
+[Thrd_ModifyCache]: 1801 ms. - ADD ELEMENT TO CACHE.
+[ThrdUseCache #5]: 3480 ms. - { cache: ('r', 'K', '@', '@')* }
+[Thrd_ModifyCache]: 322 ms. - REMOVE ELEMENT FROM CACHE.
+[ThrdUseCache #5]: 530 ms. - { element = '@'* }
+[Thrd_UpdateCache]: COMPLETED UPDATE CACHE.
+[ThrdUseCache #9]: 4604 ms. - { element = 'C' }
+[ThrdUseCache #8]: 3329 ms. - { cache: ('w', 'C', 'g', 'x') }
+[ThrdUseCache #3]: 1453 ms. - { cache: ('w', 'C', 'g', 'x') }
+[ThrdUseCache #6]: 4683 ms. - { element = 'g' }
+[ThrdUseCache #4]: 2304 ms. - { cache: ('w', 'C', 'g', 'x') }
+[ThrdUseCache #9]: 327 ms. - { cache: ('w', 'C', 'g', 'x') }
+[ThrdUseCache #7]: 4981 ms. - { cache: ('w', 'C', 'g', 'x') }
+[ThrdUseCache #8]: 1278 ms. - { cache: ('w', 'C', 'g', 'x') }
+[ThrdUseCache #10]: 4716 ms. - { cache: ('w', 'C', 'g', 'x') }
+[Thrd_ModifyCache]: 2085 ms. - ADD ELEMENT TO CACHE.
+[ThrdUseCache #4]: 1734 ms. - { element = 'w' }
+[ThrdUseCache #9]: 2736 ms. - { element = '@' }
+[ThrdUseCache #6]: 3041 ms. - { element = 'g' }
+[Thrd_ModifyCache]: 1951 ms. - REMOVE ELEMENT FROM CACHE.
+[ThrdUseCache #2]: 4778 ms. - { element = 'g' }
+[ThrdUseCache #5]: REQUEST UPDATE CACHE.
+[Thrd_UpdateCache]: IN PROCCESSING UPDATING CACHE...
+[ThrdUseCache #1]: 4911 ms. - { element = 'w'* }
+[ThrdUseCache #7]: 2994 ms. - { element = 'C'* }
+[ThrdUseCache #9]: 882 ms. - { cache: ('w', 'C', 'g', 'x')* }
+[ThrdUseCache #4]: 2203 ms. - { element = 'w'* }
+[ThrdUseCache #8]: 3367 ms. - { cache: ('w', 'C', 'g', 'x')* }
+[Thrd_ModifyCache]: 1444 ms. - ADD ELEMENT TO CACHE.
+[ThrdUseCache #3]: 4997 ms. - { element = '@'* }
+[ThrdUseCache #4]: 912 ms. - { cache: ('w', 'C', 'g', 'x', '@')* }
+[ThrdUseCache #3]: 224 ms. - { cache: ('w', 'C', 'g', 'x', '@')* }
+[ThrdUseCache #1]: 1576 ms. - { element = 'w'* }
+[ThrdUseCache #10]: 3979 ms. - { element = '@'* }
+[Thrd_UpdateCache]: COMPLETED UPDATE CACHE.
+[ThrdUseCache #3]: 576 ms. - { element = 'c' }
+[ThrdUseCache #4]: 968 ms. - { element = 'c' }
+[ThrdUseCache #2]: 2858 ms. - { element = 'O' }
+[ThrdUseCache #8]: 1979 ms. - { cache: ('V', 'c', 'O', 'e') }
+[ThrdUseCache #7]: 2917 ms. - { cache: ('V', 'c', 'O', 'e') }
+[ThrdUseCache #6]: 3585 ms. - { cache: ('V', 'c', 'O', 'e') }
+[ThrdUseCache #9]: 3043 ms. - { element = 'O' }
+[Thrd_ModifyCache]: 2258 ms. - ADD ELEMENT TO CACHE.
+[ThrdUseCache #6]: 1532 ms. - { cache: ('V', 'c', 'O', 'e', '@') }
+[ThrdUseCache #10]: 2849 ms. - { element = '@' }
+[ThrdUseCache #5]: 4595 ms. - { cache: ('V', 'c', 'O', 'e', '@') }
+[ThrdUseCache #1]: 3209 ms. - { cache: ('V', 'c', 'O', 'e', '@') }
+[ThrdUseCache #3]: 3205 ms. - { cache: ('V', 'c', 'O', 'e', '@') }
+[Thrd_ModifyCache]: 2248 ms. - ADD ELEMENT TO CACHE.
+[ThrdUseCache #9]: 2709 ms. - { cache: ('V', 'c', 'O', 'e', '@', '@') }
+[ThrdUseCache #4]: 3797 ms. - { cache: ('V', 'c', 'O', 'e', '@', '@') }
+[ThrdUseCache #2]: 3735 ms. - { element = '@' }
+[ThrdUseCache #5]: REQUEST UPDATE CACHE.
+[Thrd_UpdateCache]: IN PROCCESSING UPDATING CACHE...
+[ThrdUseCache #7]: 4244 ms. - { cache: ('V', 'c', 'O', 'e', '@', '@')* }
+[ThrdUseCache #6]: 2891 ms. - { element = 'V'* }
+[ThrdUseCache #8]: 4728 ms. - { cache: ('V', 'c', 'O', 'e', '@', '@')* }
+[ThrdUseCache #1]: 2799 ms. - { cache: ('V', 'c', 'O', 'e', '@', '@')* }
+[ThrdUseCache #8]: 192 ms. - { element = 'O'* }
+[ThrdUseCache #10]: 3294 ms. - { cache: ('V', 'c', 'O', 'e', '@', '@')* }
+[ThrdUseCache #10]: 159 ms. - { cache: ('V', 'c', 'O', 'e', '@', '@')* }
+[ThrdUseCache #4]: 1955 ms. - { cache: ('V', 'c', 'O', 'e', '@', '@')* }
+[ThrdUseCache #7]: 827 ms. - { element = 'e'* }
+[Thrd_ModifyCache]: 2468 ms. - REMOVE ELEMENT FROM CACHE.
+[ThrdUseCache #2]: 1797 ms. - { element = 'c'* }
+[ThrdUseCache #5]: 1742 ms. - { cache: ('c', 'O', 'e', '@', '@')* }
+[Thrd_UpdateCache]: COMPLETED UPDATE CACHE.
+[ThrdUseCache #8]: 1083 ms. - { cache: ('p', 'H', 'p', 'E') }
+[ThrdUseCache #9]: 2979 ms. - { element = 'p' }
+[ThrdUseCache #3]: 3773 ms. - { element = 'H' }
+[ThrdUseCache #6]: 1628 ms. - { element = 'H' }
+[ThrdUseCache #9]: 999 ms. - { element = 'p' }
+[ThrdUseCache #10]: 1932 ms. - { element = 'E' }
+[ThrdUseCache #8]: 1128 ms. - { element = 'p' }
+[ThrdUseCache #1]: 2600 ms. - { cache: ('p', 'H', 'p', 'E') }
+[ThrdUseCache #2]: 2282 ms. - { cache: ('p', 'H', 'p', 'E') }
+[Thrd_ModifyCache]: 2647 ms. - ADD ELEMENT TO CACHE.
+[ThrdUseCache #7]: 2936 ms. - { element = 'E' }
+[ThrdUseCache #1]: 1773 ms. - { element = '@' }
+[ThrdUseCache #4]: 4167 ms. - { cache: ('p', 'H', 'p', 'E', '@') }
+[ThrdUseCache #2]: 1736 ms. - { element = 'E' }
+[ThrdUseCache #9]: 2483 ms. - { cache: ('p', 'H', 'p', 'E', '@') }
+[ThrdUseCache #5]: 4333 ms. - { cache: ('p', 'H', 'p', 'E', '@') }
+[ThrdUseCache #3]: 4060 ms. - { element = 'E' }
+[Thrd_ModifyCache]: 2635 ms. - ADD ELEMENT TO CACHE.
+[ThrdUseCache #6]: REQUEST UPDATE CACHE.
+[Thrd_UpdateCache]: IN PROCCESSING UPDATING CACHE...
+[ThrdUseCache #1]: 2057 ms. - { element = 'p'* }
+[ThrdUseCache #6]: 460 ms. - { element = 'p'* }
+[ThrdUseCache #10]: 4430 ms. - { cache: ('p', 'H', 'p', 'E', '@', '@')* }
+[ThrdUseCache #7]: 3618 ms. - { element = 'p'* }
+[ThrdUseCache #8]: 4997 ms. - { element = 'H'* }
+[ThrdUseCache #4]: 2768 ms. - { element = '@'* }
+[ThrdUseCache #6]: 1057 ms. - { cache: ('p', 'H', 'p', 'E', '@', '@')* }
+[Thrd_ModifyCache]: 1860 ms. - ADD ELEMENT TO CACHE.
+[ThrdUseCache #2]: 3098 ms. - { cache: ('p', 'H', 'p', 'E', '@', '@', '@')* }
+[Thrd_ModifyCache]: 81 ms. - ADD ELEMENT TO CACHE.
+[Thrd_UpdateCache]: COMPLETED UPDATE CACHE.
+[Thrd_ModifyCache]: 561 ms. - REMOVE ELEMENT FROM CACHE.
+[ThrdUseCache #6]: 705 ms. - { cache: ('K', 'X', 'L') }
+[ThrdUseCache #1]: 2315 ms. - { element = 'K' }
+[ThrdUseCache #3]: 4131 ms. - { cache: ('K', 'X', 'L') }
+[ThrdUseCache #5]: 4313 ms. - { cache: ('K', 'X', 'L') }
+[ThrdUseCache #9]: 4893 ms. - { element = 'K' }
+[ThrdUseCache #8]: 2331 ms. - { cache: ('K', 'X', 'L') }
+[ThrdUseCache #10]: 3015 ms. - { element = 'L' }
+[ThrdUseCache #10]: 921 ms. - { element = 'X' }
+[ThrdUseCache #5]: 1351 ms. - { element = 'L' }
+[ThrdUseCache #6]: 2890 ms. - { cache: ('K', 'X', 'L') }
+[Thrd_ModifyCache]: 2939 ms. - ADD ELEMENT TO CACHE.
+[ThrdUseCache #2]: 3547 ms. - { cache: ('K', 'X', 'L', '@') }
+[ThrdUseCache #7]: 4510 ms. - { cache: ('K', 'X', 'L', '@') }
+[ThrdUseCache #9]: 1969 ms. - { element = 'K' }
+[ThrdUseCache #1]: 3006 ms. - { cache: ('K', 'X', 'L', '@') }
+[ThrdUseCache #5]: 1085 ms. - { element = 'L' }
+[ThrdUseCache #4]: 4753 ms. - { element = 'K' }
+[ThrdUseCache #3]: 2621 ms. - { element = '@' }
+[ThrdUseCache #3]: 361 ms. - { cache: ('K', 'X', 'L', '@') }
+[ThrdUseCache #6]: REQUEST UPDATE CACHE.
+[Thrd_UpdateCache]: IN PROCCESSING UPDATING CACHE...
+[Thrd_ModifyCache]: 2177 ms. - REMOVE ELEMENT FROM CACHE.
+[ThrdUseCache #10]: 2790 ms. - { cache: ('K', 'X', 'L')* }
+[ThrdUseCache #8]: 4052 ms. - { element = 'K'* }
+[ThrdUseCache #10]: 628 ms. - { element = 'X'* }
+[ThrdUseCache #2]: 2990 ms. - { cache: ('K', 'X', 'L')* }
+[ThrdUseCache #9]: 2735 ms. - { element = 'L'* }
+[ThrdUseCache #7]: 3100 ms. - { element = 'K'* }
+[ThrdUseCache #1]: 3130 ms. - { element = 'X'* }
+[Thrd_ModifyCache]: 1518 ms. - ADD ELEMENT TO CACHE.
+[ThrdUseCache #4]: 3019 ms. - { element = 'L'* }
+[Thrd_UpdateCache]: COMPLETED UPDATE CACHE.
+[ThrdUseCache #6]: 2187 ms. - { element = 'C' }
+[ThrdUseCache #3]: 2843 ms. - { cache: ('o', 't', 'C', 'n') }
+[Thrd_ModifyCache]: 1515 ms. - REMOVE ELEMENT FROM CACHE.
+[ThrdUseCache #5]: 4564 ms. - { cache: ('o', 'C', 'n') }
+[ThrdUseCache #10]: 2682 ms. - { element = 'C' }
+[ThrdUseCache #6]: 1576 ms. - { element = 'n' }
+[ThrdUseCache #10]: 198 ms. - { cache: ('o', 'C', 'n') }
+[ThrdUseCache #6]: 95 ms. - { element = 'n' }
+[ThrdUseCache #9]: 2760 ms. - { element = 'C' }
+[ThrdUseCache #6]: 54 ms. - { element = 'C' }
+[ThrdUseCache #8]: 3394 ms. - { element = 'C' }
+[ThrdUseCache #7]: 2511 ms. - { element = 'C' }
+[ThrdUseCache #1]: 2315 ms. - { element = 'o' }
+[ThrdUseCache #2]: 3068 ms. - { element = 'n' }
+[ThrdUseCache #3]: 2323 ms. - { cache: ('o', 'C', 'n') }
+[ThrdUseCache #8]: 829 ms. - { element = 'o' }
+[Thrd_ModifyCache]: 2328 ms. - REMOVE ELEMENT FROM CACHE.
+[Thrd_ModifyCache]: 36 ms. - REMOVE ELEMENT FROM CACHE.
+[ThrdUseCache #4]: Terminated.
+[ThrdUseCache #5]: Terminated.
+[ThrdUseCache #6]: Terminated.
+[Thrd_NotifyUpdateCache]: Terminated.
+[ThrdUseCache #9]: Terminated.
+[ThrdUseCache #2]: Terminated.
+[ThrdUseCache #3]: Terminated.
+[Thrd_ModifyCache]: 1068 ms. - REMOVE ELEMENT FROM CACHE.
+[ThrdUseCache #7]: Terminated.
+[ThrdUseCache #10]: Terminated.
+[ThrdUseCache #1]: Terminated.
+[Thrd_ModifyCache]: 662 ms. - ADD ELEMENT TO CACHE.
+[Thrd_ModifyCache]: 92 ms. - REMOVE ELEMENT FROM CACHE.
+[Thrd_ModifyCache]: 196 ms. - REMOVE ELEMENT FROM CACHE.
+[Thrd_ModifyCache]: 807 ms. - ADD ELEMENT TO CACHE.
+[ThrdUseCache #8]: Terminated.
+Pool of threads (10) were terminated.
+[Thrd_UpdateCache]: Terminated.
+[Thrd_ModifyCache]: Terminated.
+..................................STOP_TESTING_CACHE..................................
